@@ -1,0 +1,292 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+
+  <!-- ========== SEO ========== -->
+  <!-- These tags help Pauline's site show up when people search for her services in Raymondville -->
+  <title>Glammed by Ryeann | Hair, Nails & Brows in Raymondville, TX</title>
+  <meta name="description" content="Glammed by Ryeann — licensed cosmetologist Pauline Hernandez offering hair styling, updos, gel manicures, and brow & wax services in Raymondville, Texas. Book your appointment today." />
+  <meta name="keywords" content="cosmetologist Raymondville, hair stylist Raymondville TX, gel manicure Raymondville, eyebrow wax Raymondville, updos Raymondville, Glammed by Ryeann" />
+  <meta name="author" content="Pauline Hernandez" />
+
+  <!-- Social sharing preview (when someone shares the link on Facebook/Instagram) -->
+  <meta property="og:title" content="Glammed by Ryeann | Beauty Services in Raymondville, TX" />
+  <meta property="og:description" content="Hair, nails, and brows by licensed cosmetologist Pauline Hernandez. Book your appointment in Raymondville, Texas." />
+  <meta property="og:type" content="website" />
+  <meta property="og:image" content="images/logo.jpg" />
+
+  <!-- Local business structured data — helps Google understand this is a real local business -->
+  <script type="application/ld+json">
+  {
+    "@context": "https://schema.org",
+    "@type": "BeautySalon",
+    "name": "Glammed by Ryeann",
+    "description": "Licensed cosmetologist offering hair styling, updos, gel manicures, and brow and wax services.",
+    "areaServed": "Raymondville, Texas",
+    "founder": "Pauline Hernandez",
+    "sameAs": "https://www.instagram.com/glammed_by_ryeann"
+  }
+  </script>
+
+  <link rel="preconnect" href="https://fonts.googleapis.com" />
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+  <!-- Cormorant Garamond = elegant serif for headings. Parisienne = script for the name. Jost = clean body text -->
+  <link href="https://fonts.googleapis.com/css2?family=Cormorant+Garamond:wght@400;500;600;700&family=Parisienne&family=Jost:wght@300;400;500&display=swap" rel="stylesheet" />
+  <link rel="stylesheet" href="styles.css" />
+</head>
+<body>
+
+  <!-- ========== NAVBAR ========== -->
+  <nav class="navbar" id="navbar">
+    <div class="nav-container">
+      <a href="#home" class="nav-logo">
+        <img src="images/logo.jpg" alt="Glammed by Ryeann logo" class="nav-logo-img" />
+      </a>
+      <button class="nav-toggle" id="navToggle" aria-label="Open menu">&#9776;</button>
+      <ul class="nav-links" id="navLinks">
+        <li><a href="#about" class="nav-link">About</a></li>
+        <li><a href="#services" class="nav-link">Services</a></li>
+        <li><a href="#gallery" class="nav-link">Gallery</a></li>
+        <li><a href="#contact" class="nav-link">Contact</a></li>
+        <li><a href="#booking" class="nav-cta">Book Your Appointment</a></li>
+      </ul>
+    </div>
+  </nav>
+
+  <!-- ========== HERO ========== -->
+  <header class="hero" id="home">
+    <div class="hero-inner">
+      <img src="images/logo.jpg" alt="Glammed by Ryeann" class="hero-logo" />
+      <h1 class="hero-title">Glammed by <span>Ryeann</span></h1>
+      <p class="hero-tagline">
+        Boutique beauty services for women who want to feel polished,
+        confident, and cared for — right here in Raymondville.
+      </p>
+      <p class="hero-sub">
+        Licensed cosmetologist Pauline Hernandez brings your vision to life —
+        from everyday styling to your most special moments.
+      </p>
+      <div class="hero-actions">
+        <a href="#booking" class="btn-primary">Book Your Appointment</a>
+        <a href="#gallery" class="btn-outline">See My Work</a>
+      </div>
+    </div>
+  </header>
+
+  <!-- ========== ABOUT ========== -->
+  <section class="about" id="about">
+    <div class="about-inner">
+      <div class="about-portrait">
+        <div class="portrait-frame">
+          <img src="images/pauline.jpg" alt="Pauline Hernandez, licensed cosmetologist and owner of Glammed by Ryeann" class="portrait-photo" />
+        </div>
+      </div>
+      <div class="about-text">
+        <p class="eyebrow">Meet Your Stylist</p>
+        <h2 class="section-title">Pauline Hernandez</h2>
+        <p>
+          Hi, I'm Pauline — a licensed cosmetologist based in Raymondville, Texas,
+          and the heart behind <em>Glammed by Ryeann</em>.
+        </p>
+        <p>
+          I believe every woman deserves to feel beautiful and confident in her own
+          skin. Whether it's a fresh cut, an elegant updo for a special occasion,
+          a clean set of gel nails, or perfectly shaped brows — my goal is to create
+          a warm, personal experience where you leave feeling like the best version
+          of yourself.
+        </p>
+        <p>
+          This is more than beauty. It's about taking a moment for yourself, being
+          listened to, and walking out with a look you love. I'd be honored to be
+          your go-to girl for all things beauty.
+        </p>
+        <p class="about-verse">Psalm 46:5 &#129293;</p>
+        <a href="#contact" class="btn-text">Let's Connect →</a>
+      </div>
+    </div>
+  </section>
+
+  <!-- ========== SERVICES ========== -->
+  <section class="services" id="services">
+    <div class="services-inner">
+      <p class="eyebrow center">What I Offer</p>
+      <h2 class="section-title center">Services</h2>
+      <p class="section-sub center">Every service is tailored to you — no two appointments are the same.</p>
+
+      <div class="services-grid">
+
+        <div class="service-card">
+          <div class="service-icon">&#9986;</div>
+          <h3>Hair Styling</h3>
+          <p>
+            Blowouts, cuts, and styling that enhance your natural beauty. Whether
+            you want sleek and polished or soft and effortless, we'll find the look
+            that feels like you.
+          </p>
+          <a href="#booking" class="service-link">Contact for pricing</a>
+        </div>
+
+        <div class="service-card">
+          <div class="service-icon">&#10024;</div>
+          <h3>Updos &amp; Special Occasion</h3>
+          <p>
+            Elegant updos, braids, and styles for weddings, quinceañeras, proms,
+            and any event where you want to feel extraordinary.
+          </p>
+          <a href="#booking" class="service-link">Contact for pricing</a>
+        </div>
+
+        <div class="service-card">
+          <div class="service-icon">&#128133;</div>
+          <h3>Nail Services</h3>
+          <p>
+            Gel manicures designed to enhance your natural nails — clean, classy,
+            and low-maintenance. Long-lasting sets that leave you with healthy,
+            beautiful nail growth.
+          </p>
+          <a href="#booking" class="service-link">Contact for pricing</a>
+        </div>
+
+        <div class="service-card">
+          <div class="service-icon">&#128064;</div>
+          <h3>Brow &amp; Wax Services</h3>
+          <p>
+            Expert brow shaping that frames your face perfectly, plus lip and facial
+            waxing. From a natural clean-up to a full brow transformation — meticulous
+            attention every time.
+          </p>
+          <a href="#booking" class="service-link">Contact for pricing</a>
+        </div>
+
+      </div>
+    </div>
+  </section>
+
+  <!-- ========== GALLERY ========== -->
+  <section class="gallery" id="gallery">
+    <div class="gallery-inner">
+      <p class="eyebrow center">My Work</p>
+      <h2 class="section-title center">Gallery</h2>
+      <p class="section-sub center">A glimpse at the looks I create for my clients.</p>
+
+      <div class="gallery-grid">
+        <!-- Her real photos. More slots are ready — drop in more images as she sends them -->
+        <div class="gallery-item">
+          <img src="images/nails.jpg" alt="Gel manicure designs by Glammed by Ryeann" loading="lazy" />
+        </div>
+        <div class="gallery-item">
+          <img src="images/brows.jpg" alt="Brow and wax transformation by Glammed by Ryeann" loading="lazy" />
+        </div>
+        <!-- EXTRA SLOTS — uncomment and add filenames as Pauline sends more photos
+        <div class="gallery-item">
+          <img src="images/photo3.jpg" alt="Hair styling by Glammed by Ryeann" loading="lazy" />
+        </div>
+        <div class="gallery-item">
+          <img src="images/photo4.jpg" alt="Updo by Glammed by Ryeann" loading="lazy" />
+        </div>
+        -->
+      </div>
+
+      <p class="gallery-more">
+        More looks on Instagram
+        <a href="https://www.instagram.com/glammed_by_ryeann" target="_blank" rel="noopener">@glammed_by_ryeann</a>
+      </p>
+    </div>
+  </section>
+
+  <!-- ========== BOOKING ========== -->
+  <section class="booking" id="booking">
+    <div class="booking-inner">
+      <p class="eyebrow center">Ready When You Are</p>
+      <h2 class="section-title center">Book Your Appointment</h2>
+      <p class="section-sub center">
+        Pick a time that works for you and I'll take care of the rest.
+      </p>
+
+      <!-- CALENDLY EMBED GOES HERE -->
+      <!-- When Pauline creates her free Calendly, replace the placeholder box below with:
+           <div class="calendly-inline-widget" data-url="HER_CALENDLY_LINK" style="min-width:320px;height:700px;"></div>
+           <script type="text/javascript" src="https://assets.calendly.com/assets/external/widget.js" async></script>
+      -->
+      <div class="booking-placeholder">
+        <p class="booking-placeholder-title">Booking calendar coming soon</p>
+        <p>In the meantime, reach out directly to schedule:</p>
+        <div class="booking-actions">
+          <a href="https://www.instagram.com/glammed_by_ryeann" target="_blank" rel="noopener" class="btn-primary">Message on Instagram</a>
+          <a href="#contact" class="btn-outline">Send an Email</a>
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <!-- ========== CONTACT ========== -->
+  <section class="contact" id="contact">
+    <div class="contact-inner">
+      <p class="eyebrow center">Get in Touch</p>
+      <h2 class="section-title center">Let's Work Together</h2>
+      <p class="section-sub center">
+        Ready to book or have a question? Reach out — I'd love to hear from you.
+        Let's create a look you'll love.
+      </p>
+
+      <div class="contact-card">
+        <img src="images/logo.jpg" alt="Glammed by Ryeann" class="contact-logo" />
+        <p class="contact-name">Pauline Hernandez</p>
+        <p class="contact-role">Licensed Cosmetologist</p>
+        <p class="contact-location">Raymondville, Texas</p>
+
+        <div class="contact-buttons">
+          <a href="https://www.instagram.com/glammed_by_ryeann" target="_blank" rel="noopener" class="contact-btn contact-btn--ig">
+            @glammed_by_ryeann
+          </a>
+          <!-- Replace the email below with Pauline's real email when she confirms it -->
+          <a href="mailto:hello@glammedbyryeann.com" class="contact-btn contact-btn--email">
+            Send an Email
+          </a>
+        </div>
+        <p class="contact-serving">Serving Raymondville, TX and surrounding areas</p>
+      </div>
+    </div>
+  </section>
+
+  <!-- ========== FOOTER ========== -->
+  <footer class="footer">
+    <div class="footer-inner">
+      <div class="footer-brand">
+        <img src="images/logo.jpg" alt="Glammed by Ryeann" class="footer-logo" />
+        <p>
+          Boutique cosmetology services in Raymondville, Texas — where every woman
+          deserves to feel polished, confident, and beautiful.
+        </p>
+      </div>
+      <div class="footer-col">
+        <h4>Explore</h4>
+        <a href="#about">About</a>
+        <a href="#services">Services</a>
+        <a href="#gallery">Gallery</a>
+        <a href="#contact">Contact</a>
+      </div>
+      <div class="footer-col">
+        <h4>Services</h4>
+        <a href="#services">Hair Styling</a>
+        <a href="#services">Updos &amp; Special Occasion</a>
+        <a href="#services">Nail Services</a>
+        <a href="#services">Brow &amp; Wax</a>
+      </div>
+      <div class="footer-col">
+        <h4>Connect</h4>
+        <a href="https://www.instagram.com/glammed_by_ryeann" target="_blank" rel="noopener">@glammed_by_ryeann</a>
+        <a href="#booking">Book an Appointment</a>
+      </div>
+    </div>
+    <div class="footer-bottom">
+      <p>&copy; 2026 Glammed by Ryeann. All rights reserved.</p>
+      <p>Raymondville, Texas</p>
+    </div>
+  </footer>
+
+  <script src="main.js"></script>
+</body>
+</html>
