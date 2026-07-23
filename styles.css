@@ -375,7 +375,20 @@ ul { list-style: none; }
 .booking-inner { max-width: 800px; margin: 0 auto; }
 
 .booking-placeholder {
-  margin-top: 3rem;
+ .booking-alt {
+  text-align: center;
+  margin-top: 1.5rem;
+  font-size: 0.92rem;
+  color: var(--taupe);
+}
+.booking-alt a {
+  color: var(--terracotta);
+  border-bottom: 1px solid transparent;
+  transition: border-color 0.2s ease;
+}
+.booking-alt a:hover { border-color: var(--terracotta); }
+
+   margin-top: 3rem;
   background-color: var(--white);
   border: 1px dashed rgba(192, 130, 104, 0.4);
   border-radius: var(--radius);
